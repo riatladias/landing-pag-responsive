@@ -1,4 +1,6 @@
 # Landing Pag :flashlight:
 
 Landing pag simples com designe legal e reponsiva. 
-developed with pure HTML and CSS.
+> Developed with pure HTML and CSS.
+
+https://riatladias.github.io/landing-pag-responsive/
