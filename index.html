@@ -8,34 +8,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header id="header">
         <div class="logo">RIATLA DIAS</div>
-        <nav>
-            <ul class="nav-list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-controls="menu" aria-haspopup="true" aria-expanded="false">Menu
+                <span id="hamburguer"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Galeria</a></li>
                 <li><a href="#">Portfólio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Contato</a></li>
             </ul>
         </nav>
     </header>
     <main>
-            <div class="login">
-                <h2><span class="newform">Inscreva-se agora</span> e receba nossa Newsletter</h2>
-                <form action="/">
-                    <input type="email" name="email" id="em" placeholder="Email">
-                    <input type="text" placeholder="Nome">
-                    <input type="submit" value="Enviar">
-                </form>
+        <div class="login">
+            <h2><span class="newform">Inscreva-se agora</span> e receba nossa Newsletter</h2>
+            <form action="/">
+                <input type="email" name="email" id="em" placeholder="Email">
+                <input type="text" placeholder="Nome">
+                <input type="submit" value="Enviar">
+            </form>
 
-            </div>
-            <div class="description">
-                <h1>Título</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, voluptates eligendi! Enim modi
-                    excepturi reprehenderit nesciunt at aut iure asperiores, eaque autem est praesentium sequi minima,
-                    pariatur id, officiis tenetur.</p>
-            </div>
+        </div>
+        <div class="description">
+            <h1>Título</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, voluptates eligendi! Enim modi
+                excepturi reprehenderit nesciunt at aut iure asperiores, eaque autem est praesentium sequi minima,
+                pariatur id, officiis tenetur.</p>
+        </div>
     </main>
-
+    <script src="script.js"></script>
 </body>
 </html>
